@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>자바스크립트 type : type of</title>
+</head>
+
+<body>
+    <script>
+        // undefined 
+        console.log(typeof undefined === "undefined"); // true
+
+        // Symbol
+        console.log(typeof Symbol() === "symbol"); // true
+
+        // null
+        console.log(typeof null === "object"); // true
+
+        // null 확인
+        var a = null;
+        console.log(!a && typeof a === "object"); // true
+    </script>
+</body>
+
+</html>
+
